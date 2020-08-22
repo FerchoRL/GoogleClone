@@ -32,14 +32,12 @@ header {
 
 .google-nav ul a{
 	margin-right: 10px;
-
 	color: #000000;
 }
 
 .menu-header{
 	width: 25px;
 	height: 25px;
-	border-radius: 50%;
 	background-position: center;
 	background-size: contain;
 }
@@ -61,6 +59,7 @@ main{
 .main-logo{
 	width: 530px;
 	margin: 0 auto;
+	margin-bottom: 35px;
 }
 
 .main-input{
@@ -142,5 +141,40 @@ main .main-input-container:hover {
 .google-languaje{
 	font-size: 12px;
     color: #5f6368;
+    margin-bottom: 35px;
 }
 
+/*Footer*/
+footer{
+	width: 100%;
+	height: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/*Position absolute y bottom 0 para mantener mi footer hasta abajo*/
+	position: absolute;
+	bottom: 0;
+	align-items: center;
+	font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+	margin: 10px;
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+}
+
+.begin-footer{
+	justify-content: flex-start;
+}
+
+.end-footer{
+	justify-content: flex-end;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}

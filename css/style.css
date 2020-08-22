@@ -51,3 +51,96 @@ header {
 	border-radius: 50%;
 }
 
+/*Main section*/
+
+main{
+	margin-top: 150px;
+	text-align: center;
+}
+
+.main-logo{
+	width: 530px;
+	margin: 0 auto;
+}
+
+.main-input{
+	width: 530px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+
+.main-input-container{
+	width: 525px;
+	border-radius: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #dfe1e5;
+}
+
+.main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    /*Le quita el borde al seleccionar el input*/
+    outline: none;
+}
+
+main .main-input-container:hover {
+	/*Efecto al hacer hover sobre el input*/
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.search-icon {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.micro-icon {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	/*Para simular que voy a clickear*/
+	cursor: pointer;
+}
+
+.google-options{
+	width: 530px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+
+.google-options div{
+	display: inline-block;
+}
+
+.google-options button{
+	height: 36px;
+	background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+.google-options button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #20212447;
+    color: #222;
+}
+
+.google-languaje{
+	font-size: 12px;
+    color: #5f6368;
+}
+

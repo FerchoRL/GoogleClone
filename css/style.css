@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+/*Header section*/
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+.google-nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.google-nav ul{
+	display: flex;
+	width: 250px;
+	height: auto;
+	/*Tambien puede ser 20% pues ocuparia el 20 del width al final*/
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.google-nav ul a{
+	margin-right: 10px;
+
+	color: #000000;
+}
+
+.menu-header{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-position: center;
+	background-size: contain;
+}
+
+.image-nav{
+	/*Intente darle el ancho con % pero no se veia igual que en google*/
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
